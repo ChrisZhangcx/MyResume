@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/static/favicon.ico">
+
+    <title>Resume Demo 1.02</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="/static/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="/static/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="/static/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="/static/css/score.css" rel="stylesheet">
+  </head>
+
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header navbar-left">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">滚动监听</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">简历</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <!-- active类表示当前按钮呈按下状态 -->
+                <li><a href="/">个人主页</a></li>
+                <li class="active"><a href="#">学业信息</a></li>
+                <li><a href="/research">科研经历</a></li>
+              </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a>中国农业大学 - 张成蹊</a></li>
+                    <p class="navbar-text">chriszhangcx@hotmail.com</p>
+                </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+
+    <!-- 正文内容（与index.css）不同
+    ================================================== -->
+    <nav id="navbar-example" role="navigation">
+    <div class="container-fluid" data-target=".bs-js-navbar-scrollspy">
+    <!-- 侧边导航栏 -->
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar bs-js-navbar-scrollspy">
+          <ul class="nav nav-sidebar">
+            <li><a href="#i">内容概览<span class="sr-only">(current)</span></a></li>
+            <li><a href="#base">基础课程</a></li>
+            <li><a href="#pro">专业课程</a></li>
+            <li><a href="#design">实验与课程设计</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </nav>
+
+
+    <!-- 正文内容！！！！ -->
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" data-spy="scroll" data-target="#navbar-example" data-offset="0">
+          <div class="jumbotron">
+              <p class="lead">2014年7月，我收到中国农业大学录取通知书，所录专业为<b>机械设计制造及其自动化</b>，隶属工学院，正式成为一名本科生；
+            <br />同年9月，本科生入学军训期间，我申请参加信息科学试验班选拔考试，由于高考成绩未满足选拔要求，未能获得考试名额；<br />
+                2015年2月，我以机械<b>专业第一，全院第二</b>的成绩提出转专业申请，经面试后进入<b>信息科学试验班</b>，是时成绩排名为班级第三；同年六月，
+                我在大一末分流时选择了计算机科学与技术专业；<br />
+            2016年9月，一半的大学生涯结束，我的成绩成为<b>班级第二(2/55)，专业第一</b>，专业课程优秀率达到<b>92%</b>(22/24)，其中课程设计部分的优秀率达到<b>100%</b>。</p>
+            <p class="lead">在本页面中，上传了我截至2017年3月的成绩单扫描件，您可以在"内容浏览"栏目中进行浏览。
+              此外，您也可以通过左侧导航栏按类别快速查看成绩详情。</p>
+          </div>
+            <br />
+
+
+          <h1 id="i" class="page-header">内容概览</h1>
+          <div class="container">
+              <p class="lead">截至目前（2017年3月，大三下学期），我的综合绩点为<u>3.91/4.0</u>，排名仍保持在班级第二（<u>2/55</u>）、专业第一；</p>
+              <p class="lead">必修课绩点以<u>3.94/4.0</u>忝列班级第一，与第二名拉开了较大的差距。</p>
+            <br />
+            <img src="/static/transcript.jpg" width=80%>
+            <br />
+            <br />
+          </div>
+            <br />
+
+          <h1 id="base" class="page-header">基础课成绩</h1>
+          <p class="lead">在包括数学、物理学、英语与政治在内的多类基础课程中，我的课程优秀率门数为：<u>12/15</u>，其中数学类课程优秀率为<u>100%</u>。基础理论课的学习为我掌握之后的专业课程打下了良好的基础。</p>
+          <div class="table-responsive">
+            <table class="table table-striped table-condensed">
+              <thead>
+                <tr>
+                  <th>课程名</th>
+                  <th>课程成绩</th>
+                  <th>课程名</th>
+                  <th>课程成绩</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>高等数学（上）</td>
+                  <td>98</td>
+                  <td>高等数学（下）</td>
+                  <td>95</td>
+                </tr>
+                <tr>
+                  <td>离散数学</td>
+                  <td>93</td>
+                  <td>概率论与数理统计</td>
+                  <td>96</td>
+                </tr>
+                <tr>
+                  <td>线性代数（B）</td>
+                  <td>93</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Listening and Presentation（1）</td>
+                  <td>91</td>
+                  <td>Listening and Presentaion（2）</td>
+                  <td>85</td>
+                </tr>
+                <tr>
+                  <td>大学英语（四）</td>
+                  <td>90</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>大学物理（上）</td>
+                  <td>92</td>
+                  <td>大学物理（下）</td>
+                  <td>86</td>
+                </tr>
+                <tr>
+                  <td>电工学</td>
+                  <td>92</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>思想道德修养与法律基础</td>
+                  <td>91</td>
+                  <td>中国近现代史纲要</td>
+                  <td>91</td>
+                </tr>
+                <tr>
+                  <td>马克思主义基本原理</td>
+                  <td>89</td>
+                  <td>毛泽东思想和中国特色社会主义理论体系</td>
+                  <td>91</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+
+          <h1 id="pro" class="sub-header">专业课成绩</h1>
+          <p class="lead">我的专业理论课程优秀门数为：<u>11/12</u>；通过专业课的学习，我以偏底层的高级程序设计语言为基础（C、C++），自顶向上地对底层（计算机组成原理、微机原理与接口技术），基础层（汇编语言、操作系统）与应用层（数据库原理、Java技术及应用）进行了学习，使我对计算机专业有一个全方面的认知。此外，这些课程也成为了我科研中不可忽视的助力。</p>
+          <div class="table-responsive">
+            <table class="table table-striped table-condensed">
+              <thead>
+                <tr>
+                  <th>课程名</th>
+                  <th>课程成绩</th>
+                  <th>课程名</th>
+                  <th>课程成绩</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>大学计算机基础</td>
+                  <td>91</td>
+                  <td>C语言程序设计</td>
+                  <td>99</td>
+                </tr>
+                <tr>
+                  <td>C++程序设计</td>
+                  <td>96</td>
+                  <td>数据结构</td>
+                  <td>95</td>
+                </tr>
+                <tr>
+                  <td>计算机组成原理</td>
+                  <td>96</td>
+                  <td>汇编语言</td>
+                  <td>94</td>
+                </tr>
+                <tr>
+                  <td>微机原理与接口技术C</td>
+                  <td>92</td>
+                  <td>数据库原理</td>
+                  <td>98</td>
+                </tr>
+                <tr>
+                  <td>操作系统</td>
+                  <td>88</td>
+                  <td>计算机图形学</td>
+                  <td>95</td>
+                </tr>
+                <tr>
+                  <td>算法设计与分析</td>
+                  <td>94</td>
+                  <td>Java技术及应用</td>
+                  <td>90</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+            <br />
+
+
+          <h1 id="design" class="sub-header">实验与课程设计</h1>
+          <p class="lead">
+            实验与课程设计能让我更好地掌握理论课上的内容，将它们应用到实际中去。除C++程序设计实验外（85，良好）外，其它课程均达到了90分以上。
+          </p>
+          <div class="table-responsive">
+            <table class="table table-striped table-condensed">
+              <thead>
+                <tr>
+                  <th>课程名</th>
+                  <th>课程成绩</th>
+                  <th>课程名</th>
+                  <th>课程成绩</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>C++程序设计实验</td>
+                  <td>85</td>
+                  <td>数据结构实验</td>
+                  <td>100</td>
+                </tr>
+                <tr>
+                  <td>计算机组成原理实验</td>
+                  <td>94</td>
+                  <td>汇编语言实验</td>
+                  <td>97</td>
+                </tr>
+                <tr>
+                  <td>微机原理与接口技术实验</td>
+                  <td>97</td>
+                  <td>计算机图形学实验</td>
+                  <td>92</td>
+                </tr>
+                <tr>
+                  <td>算法设计与分析实验</td>
+                  <td>94</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>面向对象程序设计课程设计</td>
+                  <td>95</td>
+                  <td>数据结构课程设计</td>
+                  <td>95</td>
+                </tr>
+                <tr>
+                  <td>计算机组成原理课程设计</td>
+                  <td>98</td>
+                  <td>汇编语言课程设计</td>
+                  <td>96</td>
+                </tr>
+              <tr>
+                <td>数据库课程设计</td>
+                <td>91</td>
+                <td></td>
+                <td></td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="/static/js/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="/static/js/ie10-viewport-bug-workaround.js"></script>
+    <!-- 实现滚动监听 -->
+    <script src="/static/js/score.js"></script>
+  </body>
+</html>

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/static/favicon.ico">
+
+    <title>Resume Demo 1.02</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="/static/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="/static/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="/static/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="/static/css/research.css" rel="stylesheet">
+  </head>
+
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header navbar-left">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">滚动监听</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">简历</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <!-- active类表示当前按钮呈按下状态 -->
+                <li><a href="/">个人主页</a></li>
+                <li><a href="/score">学业信息</a></li>
+                <li class="active"><a href="#">科研经历</a></li>
+              </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a>中国农业大学 - 张成蹊</a></li>
+                    <p class="navbar-text">chriszhangcx@hotmail.com</p>
+                </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+
+    <!-- 正文内容（与index.css）不同
+    ================================================== -->
+
+    <nav id="navbar-example" role="navigation">
+    <div class="container-fluid" data-target=".bs-js-navbar-scrollspy">
+    <!-- 侧边导航栏 -->
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar bs-js-navbar-scrollspy">
+          <ul class="nav nav-sidebar">
+            <li><a href="#research1">教育部级创新项目<span class="sr-only">(current)</span></a></li>
+            <li><a href="#research2">北大软微实习经历</a></li>
+            <li><a href="#pro">其它项目</a></li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </nav>
+
+
+    <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" data-spy="scroll" data-target="#navbar-example" data-offset="0">
+    <!-- 正文内容！！！！ -->
+            <div class="jumbotron">
+                <p class="lead">
+                    在保持优秀的学业成绩之余，我以负责人的身份申请了为期一年的<b>教育部级创新项目</b>，涉及了网页爬虫、数据分析与前后端开发等内容，希望通过实践找到自己真正感兴趣的研究方向，为未来的研究生阶段指明目标；（在此期间，我还参加了<b>中/美国大学生数学建模竞赛</b>，进一步加深了对一些数据分析方法的了解）。在确定自己的发展方向（数据挖掘、机器学习与大数据方向）后，我找到了北京大学软件与微电子学院的一位教师，加入了他的项目组进行<b>数据挖掘方面的实习</b>。
+                </p>
+                <p class="lead">
+                    下面是对我参与的两个主要项目的内容、进度与我所做工作的介绍；此外，还有我在实践之余所做一些小项目的介绍。如果对我的这些工作感兴趣，您也可以访问我的Github主页：
+                    <a href="#">这里是我的github地址</a>。
+                </p>
+            </div>
+
+          <h1 id="research1" class="page-header">教育部级创新项目</h1>
+          <div class="container">
+          </div>
+
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3>项目简介</h3>
+                </div>
+                <div class="panel-body">
+                    <p class="lead"><b>项目名称</b>：基于Hadoop富硒农产品产业资讯平台的研究</p>
+                    <p class="lead"><b>项目时间</b>：2016年6月 - 2017年6月</p>
+                </div>
+            </div>
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    <h3>项目内容</h3>
+                </div>
+                <div class="panel-body">
+                    <p class="lead">
+                        项目的首要目标是开发一个富硒农产品产业资讯的共享平台，与其它类似平台不同的是，我们所开发的平台充分利用了大数据的优势，在提供行业资讯之余，也能向目标人群提供价格指导、走势预测，生成销量地图与产品报表等功能。
+                    </p>
+                    <p class="lead">
+                        我们的工作可以分解为以下三个部分：
+                    </p>
+                    <ul class="list-group">
+                        <li class="list-group-item"><p class="lead"><b>信息获取</b><br /><br />包括利用python网页爬虫抓取各大平台与门户网站的富硒信息（保留段落格式与图片），并保存在数据库中，以供后续工作取用。<br />该部分需要用到python网页爬虫技术，MySQ数据库操作与HTML，CSS基础。</p></li>
+                        <li class="list-group-item"><p class="lead"><b>数据分析</b><br /><br />基于获取的信息，通过数据挖掘的方法探究价格变化与时间、价格因素之间的关联关系，进行产品的价格预测与价格走势分析；此外，对数据库中的销量数据作出统计，生成各产品的销量地图，以探究富硒农产品的主要产地与发展势态。<br />在这部分的工作中，我们会用到机器学习、时间序列分析与一些常用的多元统计方法。</p> </li>
+                        <li class="list-group-item"><p class="lead"><b>内容展现</b><br /><br />将获取的行业新闻与生成的报表等元素展现在网页端，呈现一个对用户友好的交互界面。<br />在这部分中，我们使用Twitter推出的bootstrap前端框架，采用基于python的flask进行Web应用开发。</p></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h3>我的工作</h3>
+                </div>
+                <div class="panel-body">
+                    <p class="lead">
+                        在该项目中，我所承担的内容有：<br /><b>数据分析</b>部分对价格进行变化与趋势预测的任务，根据农产品两年内的价格变化情况，对价格、时间因素进行特征选择与提取，基于统计机器学习方法建立预测模型，以此获得一个具有鲁棒性和较好泛化能力的结果。
+                        <br />
+                        <b>内容展现</b>部分的多数内容，包括对网页的设计，网站框架的实现以及与数据库内容的交互。
+                    </p>
+                </div>
+            </div>
+
+
+
+          <h1 id="research2" class="page-header">北大软微实习项目</h1>
+          <div class="container">
+          </div>
+
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3>项目简介</h3>
+                </div>
+                <div class="panel-body">
+                    <p class="lead">
+                        <b>项目名称</b>：心理危机预警平台</p>
+                        <p class="lead"><b>实习时间</b>：2016年10月 - 至今
+                    </p>
+                </div>
+            </div>
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    <h3>项目内容</h3>
+                </div>
+                <div class="panel-body">
+                    <p class="lead">
+                        在目前，判断一个人是否患有心理疾病的步骤主要为：通过专业的心理调查问卷，根据目标的答题情况进行初步判断，如果问卷得分低于一定阈值，会由心理咨询师进行面对面交流，从而确定目标的心理健康情况。在这种检测方式下，仅把样本的问卷得分作为初筛手段，准确率较低，同时对心理咨询师的要求较高，压力也很重。
+                    </p>
+                    <p class="lead">
+                        为此，考虑用机器学习与数据挖掘的方式，对心理调查问卷样本进行学习，获得心理疾病患者的特征，以直接通过答题情况判断样本心理健康情况。此外，对心理咨询师保留的交流记录，通过自然语言处理的方法进行分析。最终建立一个心理危机预警平台，以及时发现目标人群存在的心理健康问题。
+                    </p>
+                </div>
+            </div>
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h3>我的工作</h3>
+                </div>
+                <div class="panel-body">
+                    <ul class="list-group">
+                        <li class="list-group-item"><p class="lead">调研统计机器学习方法；</p></li>
+                        <li class="list-group-item"><p class="lead">调研数据挖掘算法与自然语言处理在心理健康领域的应用情况；</li>
+                        <li class="list-group-item"><p class="lead">通过数据挖掘的方法，对心理问卷答题情况进行分析，探究较准确的分类模型。</p></li>
+                    </ul>
+                    <p class="lead">截至目前，我已经尝试了包括基于Decision Stump的AdaBoost，one-class svm与神经网络在内的多种分类模型，最好的分类结果F1值能达到50%以上。</p>
+                </div>
+            </div>
+
+        <h1 id="pro" class="page-header">其它项目</h1>
+          <div class="container">
+          </div>
+
+        <div class="panel panel-danger">
+            <div class="panel-heading">
+                <h3></h3>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="/static/js/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="/static/js/ie10-viewport-bug-workaround.js"></script>
+    <!-- 实现滚动监听 -->
+    <script src="/static/js/research.js"></script>
+  </body>
+</html>

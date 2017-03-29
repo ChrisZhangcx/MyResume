@@ -1,0 +1,36 @@
+<!--包含导航条的程序基模板 -->
+
+<!-- 继承自bootstrap的base.html -->
+{% extends "bootstrap/base.html" %}
+
+<!-- 标题块 -->
+{% block title %} 信息最全、分析最准、速度最快的富硒产品信息平台 - 硒望 {% endblock %}
+
+<!-- 头文件块 -->
+{% block head %}
+{{ super() }}
+<link rel="shortcut icon" href="{{ url_for('static',filename='favicon.ico') }}"
+    type="image/x-icon">
+<link rel="icon" href="{{ url_for('static',filename='favicon.ico') }}"
+    type="image/x-icon">
+{% endblock %}
+
+<!-- 导航块 -->
+{% block navbar %}
+
+{% endblock %}
+
+<!-- 内容块 -->
+{% block content %}
+
+{% endblock %}
+
+
+<!-- 脚本块 -->
+{% block scripts %}
+{{ super() }}
+    <!-- 引入moment.js库 -->
+{{ moment.include_moment() }}
+    <!-- 扩展的脚本块 -->
+    {% block js_test %}{% endblock %}
+{% endblock %}
